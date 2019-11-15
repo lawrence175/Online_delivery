@@ -65,7 +65,6 @@ echo '
 <td>'.$time= $result->time.'</td>		
 </tr>  
 ';
-// <td>'.$gender= $result->gender.'</td>  gender will be included later
 
 header("Content-type: application/octet-stream");
 header("Content-Disposition: attachment; filename=".$filename."-report.xls");
